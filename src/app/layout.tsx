@@ -56,13 +56,13 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                     <div className="hidden lg:block w-[1px] bg-white h-[33vh] bg-[--gray]" />
                     <div className="flex flex-row lg:flex-col">
                       <a href="text-[--gray]">
-                        <img src="/assets/images/discord.svg" width={32} height={32} alt="Discord" />
+                        <img src="/portfolio/assets/images/discord.svg" width={32} height={32} alt="Discord" />
                       </a>
                       <a href="text-[--gray]">
-                        <img src="/assets/images/github.svg" width={32} height={32} alt="Github" />
+                        <img src="/portfolio/assets/images/github.svg" width={32} height={32} alt="Github" />
                       </a>
                       <a href="text-[--gray]">
-                        <img src="/assets/images/email.svg" width={32} height={32} alt="Email" />
+                        <img src="/portfolio/assets/images/email.svg" width={32} height={32} alt="Email" />
                       </a>
                     </div>
                   </div>
@@ -89,10 +89,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                     <div className="text-2xl text-white font-[500]">Media</div>
                     <div className="flex gap-2">
                       <a href="" target="_blank">
-                        <img src="/assets/images/github.svg" width={32} height={32} alt="Github" />
+                        <img src="/portfolio/assets/images/github.svg" width={32} height={32} alt="Github" />
                       </a>
                       <a href="" target="_blank">
-                        <img src="/assets/images/discord.svg" width={32} height={32} alt="Discord" />
+                        <img src="/portfolio/assets/images/discord.svg" width={32} height={32} alt="Discord" />
                       </a>
                     </div>
                   </div>
