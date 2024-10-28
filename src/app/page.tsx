@@ -15,8 +15,8 @@ export default function Home() {
               </div>
             </div>
             <div className="relative flex flex-col">
-              <Image className="absolute top-[10%] w-[30vmin]" src="/portfolio/assets/images/logo-outline.svg" width={16} height={32} alt="Logo" />
-              <Image className="relative z-[1] border-b border-solid border-[--primary]" src="/portfolio/assets/images/hero.png" width={496} height={424} alt="Aframawandani" />
+              <Image className="absolute top-[10%] w-[30vmin]" src="/assets/images/logo-outline.svg" width={16} height={32} alt="Logo" />
+              <Image className="relative z-[1] border-b border-solid border-[--primary]" src="/assets/images/hero.png" width={496} height={424} alt="Aframawandani" />
               <div className="mt-[-1px] mx-7 flex gap-2 items-center border border-solid border-[--gray] p-2 text-[--gray] font-semibold">
                 <div className="w-4 h-4 border border-[--primary] bg-[--primary-op]" />
                 Open for new opportunities
@@ -43,7 +43,7 @@ export default function Home() {
           </header>
           <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="flex flex-col border border-[--gray]">
-              <Image src="/portfolio/assets/images/siberaca.png" width={329} height={162} alt="SIBERACA" />
+              <Image src="/assets/images/siberaca.png" width={329} height={162} alt="SIBERACA" />
               <div className="border-t border-[--gray] p-2 text-[--gray]">PHP MySQL</div>
               <div className="flex flex-col gap-4 border-t border-[--gray] p-4 text-[--gray]">
                 <h3 className="text-2xl text-white font-[500]">SIBERACA</h3>
@@ -54,7 +54,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col border border-[--gray]">
-              <Image src="/portfolio/assets/images/sitantri.png" width={329} height={162} alt="SITANTRI" />
+              <Image src="/assets/images/sitantri.png" width={329} height={162} alt="SITANTRI" />
               <div className="border-t border-[--gray] p-2 text-[--gray]">PHP Laravel MySQL Bootstrap</div>
               <div className="flex flex-col gap-4 border-t border-[--gray] p-4 text-[--gray]">
                 <h3 className="text-2xl text-white font-[500]">SITANTRI</h3>
@@ -65,7 +65,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col border border-[--gray]">
-              <Image src="/portfolio/assets/images/sitantri.png" width={329} height={162} alt="PROKER" />
+              <Image src="/assets/images/sitantri.png" width={329} height={162} alt="PROKER" />
               <div className="border-t border-[--gray] p-2 text-[--gray]">Linux PHP Laravel Typescript PostgreSQL React Tailwind <a className="text-nowrap text-[--primary]" href="https://ant.design" target="_blank">*Ant Design</a></div>
               <div className="flex flex-col gap-4 border-t border-[--gray] p-4 text-[--gray]">
                 <h3 className="text-2xl text-white font-[500]">PROKER</h3>
@@ -76,7 +76,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col border border-[--gray]">
-              <Image src="/portfolio/assets/images/dhgtk.png" width={329} height={162} alt="DHGTK" />
+              <Image src="/assets/images/dhgtk.png" width={329} height={162} alt="DHGTK" />
               <div className="border-t border-[--gray] p-2 text-[--gray]">Linux PHP Laravel Typescript PostgreSQL React Tailwind <a className="text-nowrap text-[--primary]" href="https://developer.microsoft.com/en-us/fluentui#/" target="_blank">*Fluent UI</a></div>
               <div className="flex flex-col gap-4 border-t border-[--gray] p-4 text-[--gray]">
                 <h3 className="text-2xl text-white font-[500]">DHGTK</h3>
@@ -87,7 +87,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col border border-[--gray]">
-              <Image src="/portfolio/assets/images/ketikweb.png" width={329} height={162} alt="DHGTK" />
+              <Image src="/assets/images/ketikweb.png" width={329} height={162} alt="DHGTK" />
               <div className="border-t border-[--gray] p-2 text-[--gray]">Typescript Next React Tailwind</div>
               <div className="flex flex-col gap-4 border-t border-[--gray] p-4 text-[--gray]">
                 <h3 className="text-2xl text-white font-[500]">DHGTK</h3>
@@ -98,7 +98,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col border border-[--gray]">
-              <Image src="/portfolio/assets/images/ketikweb.png" width={329} height={162} alt="DHGTK" />
+              <Image src="/assets/images/ketikweb.png" width={329} height={162} alt="DHGTK" />
               <div className="border-t border-[--gray] p-2 text-[--gray]">Typescript Next React Tailwind</div>
               <div className="flex flex-col gap-4 border-t border-[--gray] p-4 text-[--gray]">
                 <h3 className="text-2xl text-white font-[500]">DHGTK</h3>
@@ -125,7 +125,7 @@ export default function Home() {
           </header>
           <div className="relative md:grid md:grid-cols-2 gap-8">
             <div className="absolute md:relative min-h-[300px] w-full">
-              <Image className="absolute top-[30%] left-[70%] min-w-[14vmin]" src="/portfolio/assets/images/logo-outline.svg" width={16} height={32} alt="Whatsapp" />
+              <Image className="absolute top-[30%] left-[70%] min-w-[14vmin]" src="/assets/images/logo-outline.svg" width={16} height={32} alt="Whatsapp" />
               <svg className="dots absolute top-[20%] left-[40%] w-[10vmin]" viewBox="0 0 80 80">
                 <circle cx="4" cy="4" r="4"></circle><circle cx="4" cy="28" r="4"></circle><circle cx="4" cy="52" r="4"></circle><circle cx="4" cy="76" r="4"></circle><circle cx="28" cy="4" r="4"></circle><circle cx="28" cy="28" r="4"></circle><circle cx="28" cy="52" r="4"></circle><circle cx="28" cy="76" r="4"></circle><circle cx="52" cy="4" r="4"></circle><circle cx="52" cy="28" r="4"></circle><circle cx="52" cy="52" r="4"></circle><circle cx="52" cy="76" r="4"></circle><circle cx="76" cy="4" r="4"></circle><circle cx="76" cy="28" r="4"></circle><circle cx="76" cy="52" r="4"></circle><circle cx="76" cy="76" r="4"></circle>
               </svg>
@@ -172,7 +172,7 @@ export default function Home() {
               <p>Transforming my creativity and knowledge into a web app has been my passion for over a year. I have been helping my school clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.</p>
               <div><LinkButton href="/contact">More =&gt;</LinkButton></div>
             </div>
-            <img className="lg:mt-[-128px] max-w-[340px] border-b border-[--primary]" src="/portfolio/assets/images/about-me.png" />
+            <img className="lg:mt-[-128px] max-w-[340px] border-b border-[--primary]" src="/assets/images/about-me.png" />
           </div>
         </div>
       </section>
@@ -193,11 +193,11 @@ export default function Home() {
               <h3 className="w-[300px] text-4 font-[600]">Message me</h3>
               <div className="flex flex-col items-start gap-2">
                 <a className="flex items-center gap-2 text-[--gray]" href="https://wa.me/6289512292756">
-                  <Image src="/portfolio/assets/images/whatsapp.svg" width={32} height={32} alt="Whatsapp" />
+                  <Image src="/assets/images/whatsapp.svg" width={32} height={32} alt="Whatsapp" />
                   <span>089512292756</span>
                 </a>
                 <a className="flex items-center gap-2 text-[--gray]" href="mailto:aframawandani@gmail.com">
-                  <Image src="/portfolio/assets/images/email.svg" width={32} height={32} alt="Email" />
+                  <Image src="/assets/images/email.svg" width={32} height={32} alt="Email" />
                   <span>aframawandani@gmail.com</span>
                 </a>
               </div>
