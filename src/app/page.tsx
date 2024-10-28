@@ -43,7 +43,7 @@ export default function Home() {
           </header>
           <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="flex flex-col border border-[--gray]">
-              <Image src="/portfolio/assets/images/siberaca.png" width={329} height={162} alt="SIBERACA" />
+              <Image className="w-full h-auto md:w-[329px] md:h-[162px]" src="/portfolio/assets/images/siberaca.png" width={329} height={162} alt="SIBERACA" />
               <div className="border-t border-[--gray] p-2 text-[--gray]">PHP MySQL</div>
               <div className="flex flex-col gap-4 border-t border-[--gray] p-4 text-[--gray]">
                 <h3 className="text-2xl text-white font-[500]">SIBERACA</h3>
@@ -54,7 +54,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col border border-[--gray]">
-              <Image src="/portfolio/assets/images/sitantri.png" width={329} height={162} alt="SITANTRI" />
+              <Image className="w-full h-auto md:w-[329px] md:h-[162px]" src="/portfolio/assets/images/sitantri.png" width={329} height={162} alt="SITANTRI" />
               <div className="border-t border-[--gray] p-2 text-[--gray]">PHP Laravel MySQL Bootstrap</div>
               <div className="flex flex-col gap-4 border-t border-[--gray] p-4 text-[--gray]">
                 <h3 className="text-2xl text-white font-[500]">SITANTRI</h3>
@@ -65,7 +65,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col border border-[--gray]">
-              <Image src="/portfolio/assets/images/sitantri.png" width={329} height={162} alt="PROKER" />
+              <Image className="w-full h-auto md:w-[329px] md:h-[162px]" src="/portfolio/assets/images/sitantri.png" width={329} height={162} alt="PROKER" />
               <div className="border-t border-[--gray] p-2 text-[--gray]">Linux PHP Laravel Typescript PostgreSQL React Tailwind <a className="text-nowrap text-[--primary]" href="https://ant.design" target="_blank">*Ant Design</a></div>
               <div className="flex flex-col gap-4 border-t border-[--gray] p-4 text-[--gray]">
                 <h3 className="text-2xl text-white font-[500]">PROKER</h3>
@@ -76,7 +76,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col border border-[--gray]">
-              <Image src="/portfolio/assets/images/dhgtk.png" width={329} height={162} alt="DHGTK" />
+              <Image className="w-full h-auto md:w-[329px] md:h-[162px]" src="/portfolio/assets/images/dhgtk.png" width={329} height={162} alt="DHGTK" />
               <div className="border-t border-[--gray] p-2 text-[--gray]">Linux PHP Laravel Typescript PostgreSQL React Tailwind <a className="text-nowrap text-[--primary]" href="https://developer.microsoft.com/en-us/fluentui#/" target="_blank">*Fluent UI</a></div>
               <div className="flex flex-col gap-4 border-t border-[--gray] p-4 text-[--gray]">
                 <h3 className="text-2xl text-white font-[500]">DHGTK</h3>
@@ -87,7 +87,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col border border-[--gray]">
-              <Image src="/portfolio/assets/images/ketikweb.png" width={329} height={162} alt="DHGTK" />
+              <Image className="w-full h-auto md:w-[329px] md:h-[162px]" src="/portfolio/assets/images/ketikweb.png" width={329} height={162} alt="DHGTK" />
               <div className="border-t border-[--gray] p-2 text-[--gray]">Typescript Next React Tailwind</div>
               <div className="flex flex-col gap-4 border-t border-[--gray] p-4 text-[--gray]">
                 <h3 className="text-2xl text-white font-[500]">DHGTK</h3>
