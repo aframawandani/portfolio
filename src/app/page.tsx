@@ -98,7 +98,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col border border-[--gray]">
-              <Image src="/assets/images/ketikweb.png" width={329} height={162} alt="DHGTK" />
+              <Image src="/assets/images/servicerollingdoormalang.png" width={329} height={162} alt="DHGTK" />
               <div className="border-t border-[--gray] p-2 text-[--gray]">Typescript Next React Tailwind</div>
               <div className="flex flex-col gap-4 border-t border-[--gray] p-4 text-[--gray]">
                 <h3 className="text-2xl text-white font-[500]">DHGTK</h3>
