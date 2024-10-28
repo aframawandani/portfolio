@@ -54,7 +54,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col border border-[--gray]">
-              <Image className="w-full h-auto lg:w-[329px] lg:h-[162px]" src="/portfolio/assets/images/sitantri.png" width={329} height={162} alt="SITANTRI" />
+              <Image className="w-full h-auto lg:w-[329px] lg:h-[438px]" src="/portfolio/assets/images/sitantri.png" width={329} height={438} alt="SITANTRI" />
               <div className="border-t border-[--gray] p-2 text-[--gray]">PHP Laravel MySQL Bootstrap</div>
               <div className="flex flex-col gap-4 border-t border-[--gray] p-4 text-[--gray]">
                 <h3 className="text-2xl text-white font-[500]">SITANTRI</h3>
@@ -65,7 +65,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col border border-[--gray]">
-              <Image className="w-full h-auto lg:w-[329px] lg:h-[162px]" src="/portfolio/assets/images/sitantri.png" width={329} height={162} alt="PROKER" />
+              <Image className="w-full h-auto lg:w-[329px] lg:h-[438px]" src="/portfolio/assets/images/sitantri.png" width={329} height={438} alt="PROKER" />
               <div className="border-t border-[--gray] p-2 text-[--gray]">Linux PHP Laravel Typescript PostgreSQL React Tailwind <a className="text-nowrap text-[--primary]" href="https://ant.design" target="_blank">*Ant Design</a></div>
               <div className="flex flex-col gap-4 border-t border-[--gray] p-4 text-[--gray]">
                 <h3 className="text-2xl text-white font-[500]">PROKER</h3>
