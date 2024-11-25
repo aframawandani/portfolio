@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutMe() {
   return (
     <div className="flex flex-col gap-y-16 py-16">
@@ -18,7 +20,7 @@ export default function AboutMe() {
       <section>
         <div className="container">
           <div className="relative flex flex-col md:flex-row items-center gap-8">
-            <img className="max-w-[340px] border-b border-[--primary]" src="/portfolio/assets/images/about-me.png" width={339} height={507} alt="About Me" />
+            <Image className="max-w-[340px] border-b border-[--primary]" src="/portfolio/assets/images/about-me.png" width={339} height={507} alt="About Me" />
             <div className="flex flex-col gap-8 text-4 text-[--gray]">
               <p>I’m a self-taught full-stack developer based in Malang, Indonesia. I can develop web apps from bare metal servers, installing necessary software and dependencies like web servers (e.g., Apache, Nginx), programming languages (e.g., PHP, JavaScript, TypeScript), databases (e.g., MySQL, PostgreSQL), and frameworks (e.g., Laravel, React, Next) to create robust and scalable web applications.</p>
               <p>Transforming my creativity and knowledge into a web app has been my passion for over a year. I have been helping my school clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.</p>
